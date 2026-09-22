@@ -1,0 +1,31 @@
+<svg version="1.1" width="1200" height="200" 
+     xmlns="http://www.w3.org/2000/svg" 
+     style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 12px; background: #2d3139;">
+  <style>
+    .func-rect { rx: 2px; stroke: #1e1e1e; stroke-width: 0.5px; }
+    .func-rect:hover { opacity: 0.85; cursor: pointer; }
+    .func-text { fill: #ffffff; font-weight: 500; pointer-events: none; }
+    .title { fill: #e0e0e0; font-size: 15px; font-weight: bold; }
+  </style>
+
+  <!-- Title -->
+  <text class="title" x="20" y="30">Flame Graph: BFS Profile</text>
+
+  <!-- Level 0: Main module -->
+  <g>
+    <rect class="func-rect" x="20" y="50" width="1160" height="24" fill="#b8860b"/>
+    <text class="func-text" x="25" y="66">&lt;module&gt; (profile_search.py) [1.5555s total]</text>
+  </g>
+
+  <!-- Level 1: Runner function -->
+  <g>
+    <rect class="func-rect" x="20" y="78" width="1160" height="24" fill="#d9534f"/>
+    <text class="func-text" x="25" y="94">run_bfs (profile_search.py) [100,000 iterations]</text>
+  </g>
+
+  <!-- Level 2: Search algorithm target execution -->
+  <g>
+    <rect class="func-rect" x="20" y="106" width="1160" height="24" fill="#e67e22"/>
+    <text class="func-text" x="25" y="122">bfs (bfs_dfs.py) - 100,000 calls, 1.5555s cumulative, 0.9442s self-time</text>
+  </g>
+</svg>
