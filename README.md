@@ -8,8 +8,8 @@
 
 ### Student Details
 
-* **Name:** Samruddhi Sharad Jatkar
-* **PRN:** 25UAM104
+* **Name:** Rajvardhini Mane
+* **PRN:** 25UAM114
 * **Division:** SY B
 
 ---
