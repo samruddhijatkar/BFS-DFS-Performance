@@ -10,7 +10,7 @@
 
 ## Student
 
-**Samruddhi Sharad Jatkar**
+**Rajvardhini mane**
 
 ## Division
 
